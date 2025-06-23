@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-import logo from "../../assets/images/logo/dhanwis_academy_logo.png"
+import logo from "../../assets/images/logo/dhanwis_academy_logo.png";
+import CustomBtn from "../CustomBtn/CustomBtn";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,15 +22,15 @@ function Navbar() {
   }, []);
   return (
     <div
-      className={`bg-white sticky top-[-100px] transition-all duration-500 ${
-        isSticky ? "shadow-md top-0" : ""
+      className={`bg-white sticky top-0 z-50 transition-all duration-500 ${
+        isSticky ? "shadow-md" : ""
       }`}
     >
       <div className="container mx-auto">
         <nav className="bg-white p-3">
           <div className="flex items-center justify-between">
             {/* Mobile logo */}
-            <a href="index.html" className="mr-10">
+            <a href="index.html" className="mr-[80px]">
               <img className="w-[80px] lg:w-[120px]" src={logo} alt="logo" />
             </a>
 
@@ -82,7 +83,7 @@ function Navbar() {
                     Pages
                     <FaChevronDown className="ml-2" />
                   </button>
-                  <div className="absolute left-0 mt-0 w-48 bg-light opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg rounded-b">
+                  <div className="absolute left-0 mt-0 w-48 bg-light opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg rounded-b bg-white">
                     <a
                       href="feature.html"
                       className="block px-4 py-2 text-dark hover:bg-gray-100"
@@ -125,12 +126,7 @@ function Navbar() {
               </div>
 
               <div className="ml-auto hidden lg:block">
-                <a
-                  href="#"
-                  className="bg-primary text-white py-2 px-3 rounded hover:bg-primary-dark transition"
-                >
-                  Get A Quote
-                </a>
+                <CustomBtn btntext="Contact" />
               </div>
             </div>
           </div>
@@ -206,12 +202,7 @@ function Navbar() {
               >
                 Contact
               </a>
-              <a
-                href="#"
-                className="bg-primary text-white py-2 px-3 rounded hover:bg-primary-dark transition text-center"
-              >
-                Get A Quote
-              </a>
+              <CustomBtn btntext="Contact" />
             </div>
           </div>
         </nav>

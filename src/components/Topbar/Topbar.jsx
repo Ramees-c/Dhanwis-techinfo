@@ -12,7 +12,7 @@ import {
 
 function Topbar() {
   return (
-    <div className="bg-black text-white hidden lg:flex animate-fade-in">
+    <div className="bg-customBlack text-white hidden lg:flex animate-fade-in">
       <div className="container py-3">
         <div className="flex items-center justify-center">
           
