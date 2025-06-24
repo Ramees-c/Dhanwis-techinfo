@@ -10,6 +10,7 @@ import { FaHammer } from "react-icons/fa";
 import { HiSpeakerphone } from "react-icons/hi";
 import { FaGlobe } from "react-icons/fa";
 import { IoIosSettings } from "react-icons/io";
+import { MdPhoneIphone } from "react-icons/md";
 
 function Home() {
   const serviceButtonContent = [
@@ -33,7 +34,7 @@ function Home() {
     },
     {
       id: 4,
-      icon: <FaHammer className="text-3xl text-white" />,
+      icon: <MdPhoneIphone className="text-3xl text-white" />,
       heading: "Mobile App Development",
       desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquid aperiam sit deserunt nam consequatur magnam maxime, fugit nisi natus.",
     },
@@ -46,7 +47,7 @@ function Home() {
       <Carousel />
       <About />
       <Feature />
-      <div className="container">
+      <div className="container mb-24">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-5">
           {
           serviceButtonContent.map((item) => (
