@@ -12,25 +12,25 @@ function Carousel() {
     {
       id: 1,
       image:
-        "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww",
-      title: "Best Metalcraft Solutions",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur odio perspiciatis unde facere alias velit est ratione ullam ipsum?",
+        "https://img.freepik.com/free-photo/thoughtful-woman-with-notebook_23-2147771761.jpg?uid=R185636078&ga=GA1.1.1884660922.1716013807&semt=ais_hybrid&w=740",
+      title: "Driving Growth Through Digital Solutions ",
+      desc: "Our all-inclusive range of digital solutions includes web development, mobile app development, and digital marketing, guaranteeing a comprehensive approach to fulfill your company requirements.",
       buttonText: "Explore More",
     },
     {
       id: 2,
       image:
-        "https://plus.unsplash.com/premium_photo-1682787494765-44d02d12f5be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
-      title: "Best Metalcraft",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur odio perspiciatis unde facere alias velit est ratione ullam ipsum?",
+        "https://img.freepik.com/free-photo/notepad-pencils-left_23-2147843216.jpg?uid=R185636078&ga=GA1.1.1884660922.1716013807&semt=ais_hybrid&w=740",
+      title: "Driving Growth Through Digital Solutions ",
+      desc: "Our all-inclusive range of digital solutions includes web development, mobile app development, and digital marketing, guaranteeing a comprehensive approach to fulfill your company requirements.",
       buttonText: "Explore More",
     },
     {
       id: 3,
       image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
-      title: "Best ",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur odio perspiciatis unde facere alias velit est ratione ullam ipsum?",
+        "https://img.freepik.com/free-photo/wooden-multicolored-pencils-white-background-isolated-top-view_169016-37961.jpg?uid=R185636078&ga=GA1.1.1884660922.1716013807&semt=ais_hybrid&w=740",
+      title: "Driving Growth Through Digital Solutions ",
+      desc: "Our all-inclusive range of digital solutions includes web development, mobile app development, and digital marketing, guaranteeing a comprehensive approach to fulfill your company requirements.",
       buttonText: "Explore More",
     },
   ];
@@ -78,13 +78,13 @@ function Carousel() {
             />
 
             {/* Caption */}
-            <div className="absolute inset-0 flex flex-col items-start justify-center bg-black bg-opacity-70 p-12 pl-10 lg:pl-44 z-10">
-              <div className="w-[60%]">
-                <h1 className="text-4xl md:text-6xl xl:text-7xl font-bold text-white uppercase mb-5 animate-zoomIn">
-                {slide.title}
-              </h1>
-              <p className="text-white mb-5 text-base">{slide.desc}</p>
-              <CustomBtn btntext={slide.buttonText} />
+            <div className="absolute inset-0 flex flex-col items-start justify-center p-12 pl-10 lg:pl-44 z-10 animate-zoomIn">
+              <div className="w-full lg:w-[60%]">
+                <h1 className="text-4xl md:text-6xl xl:text-7xl text-primary font-bold uppercase mb-5">
+                  {slide.title}
+                </h1>
+                <p className="text-black mb-5 text-base">{slide.desc}</p>
+                <CustomBtn btntext={slide.buttonText} />
               </div>
             </div>
           </div>
@@ -92,20 +92,20 @@ function Carousel() {
 
         {/* Navigation Arrows */}
         <div className="hidden lg:block">
-            <button
-          onClick={goToPrevSlide}
-          className="absolute left-12 top-1/2 transform -translate-y-1/2 z-10 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-300"
-          aria-label="Previous slide"
-        >
-          <FaChevronLeft size={24} />
-        </button>
-        <button
-          onClick={goToNextSlide}
-          className="absolute right-12 top-1/2 transform -translate-y-1/2 z-10 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-300"
-          aria-label="Next slide"
-        >
-          <FaChevronRight size={24} />
-        </button>
+          <button
+            onClick={goToPrevSlide}
+            className="absolute left-12 top-1/2 transform -translate-y-1/2 z-10 bg-black bg-opacity-10 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-300"
+            aria-label="Previous slide"
+          >
+            <FaChevronLeft size={24} />
+          </button>
+          <button
+            onClick={goToNextSlide}
+            className="absolute right-12 top-1/2 transform -translate-y-1/2 z-10 bg-black bg-opacity-10 text-white p-2 rounded-full hover:bg-opacity-70 transition-all duration-300"
+            aria-label="Next slide"
+          >
+            <FaChevronRight size={24} />
+          </button>
         </div>
       </div>
     </div>

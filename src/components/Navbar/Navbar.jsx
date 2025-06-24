@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-import logo from "../../assets/images/logo/dhanwis_academy_logo.png";
+import logo from "../../assets/images/logo/Techinfo 1.png";
 import CustomBtn from "../CustomBtn/CustomBtn";
 
 function Navbar() {
@@ -31,7 +31,7 @@ function Navbar() {
           <div className="flex items-center justify-between">
             {/* Mobile logo */}
             <a href="index.html" className="mr-[80px]">
-              <img className="w-[80px] lg:w-[120px]" src={logo} alt="logo" />
+              <img className="w-[80px] lg:w-[140px]" src={logo} alt="logo" />
             </a>
 
             {/* Mobile menu button */}
@@ -42,7 +42,7 @@ function Navbar() {
               <svg
                 className="w-6 h-6"
                 fill="none"
-                stroke="currentColor"
+                stroke="#ebb741"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -83,34 +83,34 @@ function Navbar() {
                     Pages
                     <FaChevronDown className="ml-2" />
                   </button>
-                  <div className="absolute left-0 mt-0 w-48 bg-light opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg rounded-b bg-white">
+                  <div className="absolute w-[300px] left-0 mt-3 bg-light opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-lg rounded-b bg-white">
                     <a
                       href="feature.html"
-                      className="block px-4 py-2 text-dark hover:bg-gray-100"
+                      className="block px-4 py-2 text-dark hover:bg-primary hover:text-white"
                     >
                       Features
                     </a>
                     <a
                       href="team.html"
-                      className="block px-4 py-2 text-dark hover:bg-gray-100"
+                      className="block px-4 py-2 text-dark hover:bg-primary hover:text-white"
                     >
                       Our Team
                     </a>
                     <a
                       href="testimonial.html"
-                      className="block px-4 py-2 text-dark hover:bg-gray-100"
+                      className="block px-4 py-2 text-dark hover:bg-primary hover:text-white"
                     >
                       Testimonial
                     </a>
                     <a
                       href="appoinment.html"
-                      className="block px-4 py-2 text-dark hover:bg-gray-100"
+                      className="block px-4 py-2 text-dark hover:bg-primary hover:text-white"
                     >
                       Appoinment
                     </a>
                     <a
                       href="404.html"
-                      className="block px-4 py-2 text-dark hover:bg-gray-100"
+                      className="block px-4 py-2 text-dark hover:bg-primary hover:text-white"
                     >
                       404 Page
                     </a>
