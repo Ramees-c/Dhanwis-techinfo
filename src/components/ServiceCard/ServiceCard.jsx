@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function ServiceCard({icon, heading, desc}) {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/4">
+    <div className="w-[90%] mx-auto mb-10">
       <div className="border border-opacity-5 border-gray-800 h-full transition-all duration-300 shadow-md lg:shadow-lg group">
         <div className="feature-icon w-16 h-16 bg-primary flex items-center justify-center mb-4 -mt-5 transition-all duration-500 group-hover:ml-12">
          {icon}

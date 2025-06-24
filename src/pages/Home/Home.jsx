@@ -11,6 +11,7 @@ import { HiSpeakerphone } from "react-icons/hi";
 import { FaGlobe } from "react-icons/fa";
 import { IoIosSettings } from "react-icons/io";
 import { MdPhoneIphone } from "react-icons/md";
+import ClientLogos from "../../components/ClientLogos/ClientLogos";
 
 function Home() {
   const serviceButtonContent = [
@@ -45,15 +46,19 @@ function Home() {
       <Topbar />
       <Navbar />
       <Carousel />
+      <ClientLogos />
       <About />
       <Feature />
       <div className="container mb-24">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-5">
-          {
-          serviceButtonContent.map((item) => (
-            <ServiceCard key={item.id} icon={item.icon} heading={item.heading} desc={item.desc} />
-          ))
-        }
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-0">
+          {serviceButtonContent.map((item) => (
+            <ServiceCard
+              key={item.id}
+              icon={item.icon}
+              heading={item.heading}
+              desc={item.desc}
+            />
+          ))}
         </div>
       </div>
     </div>
