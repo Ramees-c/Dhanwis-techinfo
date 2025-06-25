@@ -14,6 +14,7 @@ import { MdPhoneIphone } from "react-icons/md";
 import ClientLogos from "../../components/ClientLogos/ClientLogos";
 import CustomCard from "../../components/CustomCard/CustomCard";
 import CustomBtn from "../../components/CustomBtn/CustomBtn";
+import PortfolioTab from "../../components/PortfolioTab/PortfolioTab";
 
 function Home({ portfolioContent }) {
   const serviceButtonContent = [
@@ -63,16 +64,20 @@ function Home({ portfolioContent }) {
           ))}
         </div>
       </div>
+      
       {/* Portfolio section */}
       <div className="container mb-24">
         <h2 className="text-4xl font-bold text-center mb-3">
           Beautiful Touch by Dhanwis
         </h2>
-        <p className="text-center mb-28 text-para">
+        <p className="text-center mb-10 text-para">
           We collaborate closely with a broad spectrum of clients from various
           industries and places.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-0">
+        <div className="mb-10 text-center">
+          <PortfolioTab />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-0">
           {portfolioContent.map((item) => (
             <CustomCard
               key={item.id}

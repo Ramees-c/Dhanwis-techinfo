@@ -36,7 +36,7 @@ function Navbar() {
 
             {/* Mobile menu button */}
             <button
-              className="lg:hidden focus:outline-none"
+              className="lg:hidden focus:outline-none "
               onClick={() => setIsOpen(!isOpen)}
             >
               <svg
