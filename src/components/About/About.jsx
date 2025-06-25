@@ -25,10 +25,12 @@ function About() {
               Ultimate Welding and Quality Metal Solutions
             </h1>
             <p className="mb-4 text-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              tellus augue, iaculis id elit eget, ultrices pulvinar tortor.
-              Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.
-              Pellentesque eu consequat augue.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+              laudantium repellendus corporis odio nulla dolores vitae ducimus
+              tenetur eos quibusdam consectetur tempore, dicta cum nemo nostrum
+              iure accusantium debitis exercitationem? Ratione et quidem eius
+              vitae illo magni soluta suscipit voluptatem quod, laborum nam
+              consequatur iusto dolores. Asperiores quod quam eaque!
             </p>
 
             {/* Features Grid */}
