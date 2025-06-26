@@ -60,7 +60,7 @@ function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h5 className="text-uppercase text-primary mb-4 text-xl lg:text-2xl font-semibold">
+            <h5 className="text-uppercase text-primary mb-4 text-xl lg:text-2xl font-title font-semibold">
               Quick Links
             </h5>
 
@@ -96,18 +96,18 @@ function Footer() {
 
           {/* Business Hours */}
           <div>
-            <h5 className="text-uppercase text-primary mb-4 text-xl lg:text-2xl font-semibold">
+            <h5 className="text-uppercase text-primary mb-4 text-xl lg:text-2xl font-title font-semibold">
               Business Hours
             </h5>
-            <p className="text-uppercase text-white mb-0">Monday - Saturday</p>
-            <p className="mb-2 text-white">09:00 am - 06:00 pm</p>
-            <p className="text-uppercase mb-0 text-white">Sunday</p>
-            <p className="text-white">Closed</p>
+            <p className="text-uppercase text-white text-md lg:text-lg mb-0">Monday - Saturday</p>
+            <p className="mb-2 text-white text-md lg:text-lg">09:00 am - 06:00 pm</p>
+            <p className="text-uppercase mb-0 text-white text-md lg:text-lg">Sunday</p>
+            <p className="text-white text-md lg:text-lg">Closed</p>
           </div>
 
           {/* Gallery */}
           <div>
-            <h5 className="text-uppercase text-primary mb-4 text-xl font-semibold">
+            <h5 className="text-uppercase text-primary mb-4 text-xl lg:text-2xl font-title font-semibold">
               Gallery
             </h5>
             <div className="grid grid-cols-3 gap-1">

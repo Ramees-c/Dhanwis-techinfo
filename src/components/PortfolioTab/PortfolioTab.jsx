@@ -19,7 +19,7 @@ function PortfolioTab() {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`w-[300px] lg:w-[300px] h-[40px] lg:h-[50px] text-sm lg:text-md font-medium transition-all duration-300 bg-customBlack text-white ${
+            className={`w-[300px] lg:w-[300px] h-[40px] lg:h-[50px] text-sm lg:text-lg font-medium transition-all duration-300 bg-customBlack text-white ${
               activeTab === tab.id
                 ? "bg-primary text-white shadow-md"
                 : "text-gray-600 hover:bg-primary"

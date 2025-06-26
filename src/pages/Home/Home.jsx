@@ -25,25 +25,25 @@ function Home({ portfolioContent }) {
       id: 1,
       icon: <HiSpeakerphone className="text-3xl text-white" />,
       heading: "Digital Marketing",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquid aperiam sit deserunt nam consequatur magnam maxime, fugit nisi natus.",
+      desc: "Our company offers digital marketing services that can help you expand your business and reach a global audience in a cost-effective manner. Our team specializes in converting potential leads into loyal customers, ensuring a high return on investment for your marketing efforts.",
     },
     {
       id: 2,
       icon: <FaGlobe className="text-3xl text-white" />,
       heading: "Web Design & Development",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquid aperiam sit deserunt nam consequatur magnam maxime, fugit nisi natus.",
+      desc: "We specialize in creating unique and impactful websites that incorporate cutting-edge design techniques. Our websites are crafted with the finest elements that help businesses establish a strong online presence and enhance their brand identity in the digital world.",
     },
     {
       id: 3,
       icon: <IoIosSettings className="text-3xl text-white" />,
       heading: "ERP Development",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquid aperiam sit deserunt nam consequatur magnam maxime, fugit nisi natus.",
+      desc: "The development of ERP (Enterprise Resource Planning) involves designing, adapting and managing software systems that merge different business operations and procedures into a cohesive and centralized framework.",
     },
     {
       id: 4,
       icon: <MdPhoneIphone className="text-3xl text-white" />,
       heading: "Mobile App Development",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquid aperiam sit deserunt nam consequatur magnam maxime, fugit nisi natus.",
+      desc: "Our team specializes in creating mobile apps that seamlessly work across various mobile devices and online platforms. We offer end-to-end solutions, from designing and integrating the app to managing its entire lifecycle.",
     },
   ];
 
@@ -70,10 +70,10 @@ function Home({ portfolioContent }) {
 
       {/* Portfolio section */}
       <div className="container mb-24">
-        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-3">
+        <h2 className="text-2xl lg:text-5xl font-title font-bold text-center mb-5">
           Beautiful Touch by Dhanwis
         </h2>
-        <p className="text-center text-sm lg:text-md mb-10 text-para">
+        <p className="text-center text-sm lg:text-lg mb-10 text-para">
           We collaborate closely with a broad spectrum of clients from various
           industries and places.
         </p>
@@ -95,10 +95,10 @@ function Home({ portfolioContent }) {
         </div>
       </div>
       <div className="container">
-        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-3">
+        <h2 className="text-2xl lg:text-5xl font-bold text-center mb-5">
           Beautiful Touch by Dhanwis
         </h2>
-        <p className="text-center text-sm lg:text-md mb-5 text-para">
+        <p className="text-center text-sm lg:text-lg mb-5 text-para">
           We collaborate closely with a broad spectrum of clients from various
           industries and places.
         </p>

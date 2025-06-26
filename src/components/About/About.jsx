@@ -21,7 +21,7 @@ function About() {
 
           {/* Content Column */}
           <div className="wow fadeIn" data-wow-delay="0.5s">
-            <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold uppercase mb-4">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-title font-bold uppercase mb-4">
               Ultimate Welding and Quality Metal Solutions
             </h1>
             <p className="mb-4 text-para">

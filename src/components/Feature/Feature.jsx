@@ -37,7 +37,7 @@ function Feature() {
           <div className="flex g-0 justify-center lg:justify-end">
             <div className="w-full lg:w-[50%] ">
               <div className="mt-10 lg:mt-17">
-                <h1 className=" text-white text-2xl lg:text-5xl font-bold uppercase mb-4">
+                <h1 className=" text-white text-2xl lg:text-5xl font-title font-bold uppercase mb-4">
                   Why You should Choose Our welding Services
                 </h1>
                 <p className="text-white mb-4">
