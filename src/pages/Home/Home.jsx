@@ -16,6 +16,8 @@ import CustomCard from "../../components/CustomCard/CustomCard";
 import CustomBtn from "../../components/CustomBtn/CustomBtn";
 import PortfolioTab from "../../components/PortfolioTab/PortfolioTab";
 import TestimonialCarousel from "../../components/TestimonialCarousel/TestimonialCarousel";
+import Footer from "../../components/Footer/Footer";
+import Copyright from "../../components/Copyright/Copyright";
 
 function Home({ portfolioContent }) {
   const serviceButtonContent = [
@@ -68,10 +70,10 @@ function Home({ portfolioContent }) {
 
       {/* Portfolio section */}
       <div className="container mb-24">
-        <h2 className="text-4xl font-bold text-center mb-3">
+        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-3">
           Beautiful Touch by Dhanwis
         </h2>
-        <p className="text-center mb-10 text-para">
+        <p className="text-center text-sm lg:text-md mb-10 text-para">
           We collaborate closely with a broad spectrum of clients from various
           industries and places.
         </p>
@@ -91,17 +93,19 @@ function Home({ portfolioContent }) {
         <div className="text-center mb-24">
           <CustomBtn btntext="View More" />
         </div>
-        <div>
-          <h2 className="text-4xl font-bold text-center mb-3">
-            Beautiful Touch by Dhanwis
-          </h2>
-          <p className="text-center mb-5 text-para">
-            We collaborate closely with a broad spectrum of clients from various
-            industries and places.
-          </p>
-          <TestimonialCarousel />
-        </div>
       </div>
+      <div className="container">
+        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-3">
+          Beautiful Touch by Dhanwis
+        </h2>
+        <p className="text-center text-sm lg:text-md mb-5 text-para">
+          We collaborate closely with a broad spectrum of clients from various
+          industries and places.
+        </p>
+        <TestimonialCarousel />
+      </div>
+      <Footer />
+      <Copyright />
     </div>
   );
 }

@@ -53,7 +53,7 @@ function Feature() {
                 </p>
                 <div className="flex flex-col md:flex-row justify-center items-center gap-5 lg:gap-10 pt-2 mb-5 lg:mb-10">
                   <div>
-                    <div className="flex flex-col text-center justify-center items-center border-4 border-primary h-[200px] w-[300px] xl:h-[200px]">
+                    <div className="flex flex-col text-center justify-center items-center border-4 border-primary h-[140px] w-[300px] xl:h-[200px]">
                       <h1
                         className="text-white text-3xl lg:text-4xl font-bold"
                         data-toggle="counter-up"
@@ -66,7 +66,7 @@ function Feature() {
                     </div>
                   </div>
                   <div>
-                    <div className="flex flex-col text-center justify-center items-center border-4 border-primary w-[300px] h-[200px] xl:h-[200px]">
+                    <div className="flex flex-col text-center justify-center items-center border-4 border-primary w-[300px] h-[140px] xl:h-[200px]">
                       <h1
                         className="text-white text-3xl lg:text-4xl font-bold"
                         data-toggle="counter-up"

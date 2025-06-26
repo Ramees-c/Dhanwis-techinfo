@@ -58,7 +58,7 @@ function TestimonialCarousel() {
   };
   return (
     <div className="py-12 ">
-      <div className="container mx-auto px-4">
+      <div className="mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-8">
           {/* Animated Images */}
           {/* <div className="w-full lg:w-5/12 relative min-h-[400px] overflow-hidden">
@@ -98,7 +98,10 @@ function TestimonialCarousel() {
           </div> */}
 
           <div className="w-full lg:w-5/12">
-            <img src="https://img.freepik.com/free-photo/group-positive-young-people-posing-together_23-2148431344.jpg?ga=GA1.1.1246216932.1730456119&semt=ais_hybrid&w=740" alt="" />
+            <img
+              src="https://img.freepik.com/free-photo/group-positive-young-people-posing-together_23-2148431344.jpg?ga=GA1.1.1246216932.1730456119&semt=ais_hybrid&w=740"
+              alt=""
+            />
           </div>
 
           {/* Testimonial Carousel */}
@@ -111,7 +114,7 @@ function TestimonialCarousel() {
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-24 h-24 rounded-full object-cover"
+                        className="w-16 h-16 lg:w-24 lg:h-24 rounded-full object-cover"
                       />
                       <div className="ml-4">
                         <div className="flex mb-2">
@@ -119,15 +122,15 @@ function TestimonialCarousel() {
                             <FaStar key={i} className="text-primary" />
                           ))}
                         </div>
-                        <h5 className="text-lg font-bold uppercase">
+                        <h5 className="text-md lg:text-lg font-bold uppercase">
                           {testimonial.name}
                         </h5>
-                        <span className="text-gray-600">
+                        <span className="text-para text-sm lg:text-md">
                           {testimonial.profession}
                         </span>
                       </div>
                     </div>
-                    <p className="text-lg text-gray-700">
+                    <p className="text-sm lg:text-lg text-para">
                       {testimonial.content}
                     </p>
                   </div>
@@ -136,16 +139,16 @@ function TestimonialCarousel() {
             </Slider>
 
             {/* Custom Arrows */}
-            <div className="flex pl-9 mt-6 space-x-4">
+            <div className="flex pl-9 lg:mt-6 space-x-4">
               <button
                 onClick={() => sliderRef.current.slickPrev()}
-                className="text-primary text-3xl hover:text-dark transition-colors duration-300"
+                className="text-primary text-xl lg:text-3xl hover:text-customBlack transition-colors duration-300"
               >
                 <FaArrowLeft />
               </button>
               <button
                 onClick={() => sliderRef.current.slickNext()}
-                className="text-primary text-3xl hover:text-dark transition-colors duration-300"
+                className="text-primary text-xl lg:text-3xl hover:text-customBlack transition-colors duration-300"
               >
                 <FaArrowRight />
               </button>
@@ -153,40 +156,6 @@ function TestimonialCarousel() {
           </div>
         </div>
       </div>
-
-      {/* Add custom animation to tailwind config */}
-      <style jsx global>{`
-        @keyframes flip {
-          0%,
-          100% {
-            transform: rotateY(0deg);
-          }
-          50% {
-            transform: rotateY(180deg);
-          }
-        }
-
-        /* Fix for react-slick outline */
-        .slick-slide {
-          outline: none;
-        }
-
-        /* Custom slick arrows positioning */
-        .slick-arrow {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          z-index: 1;
-        }
-
-        .slick-prev {
-          left: -40px;
-        }
-
-        .slick-next {
-          right: -40px;
-        }
-      `}</style>
     </div>
   );
 }

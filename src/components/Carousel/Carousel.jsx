@@ -78,12 +78,14 @@ function Carousel() {
             />
 
             {/* Caption */}
-            <div className="absolute inset-0 flex flex-col items-start justify-center p-12 pl-10 lg:pl-36 z-10 animate-zoomIn">
+            <div className="absolute inset-0 flex flex-col items-start justify-center p-0 pl-5 lg:p-12 pr-2 lg:pr-0 lg:pl-36 z-10 animate-zoomIn">
               <div className="w-full lg:w-[60%]">
-                <h1 className="text-4xl md:text-5xl xl:text-6xl text-primary font-bold uppercase mb-5">
+                <h1 className="text-3xl md:text-4xl xl:text-5xl text-primary font-bold uppercase mb-5">
                   {slide.title}
                 </h1>
-                <p className="text-black mb-5 text-base">{slide.desc}</p>
+                <p className="text-black mb-5 text-sm lg:text-base">
+                  {slide.desc}
+                </p>
                 <CustomBtn btntext={slide.buttonText} />
               </div>
             </div>

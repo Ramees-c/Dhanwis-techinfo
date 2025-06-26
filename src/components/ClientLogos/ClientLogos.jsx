@@ -12,8 +12,8 @@ function ClientLogos() {
   return (
     <section className="container py-12 ">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-3">Our Happy Clients</h2>
-        <p className="text-center mb-12 text-para">We collaborate closely with a broad spectrum of clients from various industries and places.</p>
+        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-3">Our Happy Clients</h2>
+        <p className="text-center mb-5 lg:mb-12 text-sm lg:text-md text-para">We collaborate closely with a broad spectrum of clients from various industries and places.</p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-7">
           {clients.map((client) => (

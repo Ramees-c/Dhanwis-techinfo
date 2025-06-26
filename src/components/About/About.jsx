@@ -3,7 +3,7 @@ import { FaUsersCog, FaTachometerAlt, FaCheckSquare } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="pt-[24px] lg:pt-[80px] pb-6 w-full lg:w-[90%] mx-auto">
+    <div className="pt-[16px] lg:pt-[80px] pb-6 w-full lg:w-[90%] mx-auto">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 place-items-center">
           {/* Image Column */}
@@ -21,7 +21,7 @@ function About() {
 
           {/* Content Column */}
           <div className="wow fadeIn" data-wow-delay="0.5s">
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold uppercase mb-4">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold uppercase mb-4">
               Ultimate Welding and Quality Metal Solutions
             </h1>
             <p className="mb-4 text-para">
