@@ -15,6 +15,7 @@ import ClientLogos from "../../components/ClientLogos/ClientLogos";
 import CustomCard from "../../components/CustomCard/CustomCard";
 import CustomBtn from "../../components/CustomBtn/CustomBtn";
 import PortfolioTab from "../../components/PortfolioTab/PortfolioTab";
+import TestimonialCarousel from "../../components/TestimonialCarousel/TestimonialCarousel";
 
 function Home({ portfolioContent }) {
   const serviceButtonContent = [
@@ -64,7 +65,7 @@ function Home({ portfolioContent }) {
           ))}
         </div>
       </div>
-      
+
       {/* Portfolio section */}
       <div className="container mb-24">
         <h2 className="text-4xl font-bold text-center mb-3">
@@ -87,8 +88,18 @@ function Home({ portfolioContent }) {
             />
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center mb-24">
           <CustomBtn btntext="View More" />
+        </div>
+        <div>
+          <h2 className="text-4xl font-bold text-center mb-3">
+            Beautiful Touch by Dhanwis
+          </h2>
+          <p className="text-center mb-5 text-para">
+            We collaborate closely with a broad spectrum of clients from various
+            industries and places.
+          </p>
+          <TestimonialCarousel />
         </div>
       </div>
     </div>
