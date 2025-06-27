@@ -6,9 +6,10 @@ import PortfolioImg1 from "./assets/images/portfolioImages/Exora Conventions and
 function App() {
   const portfolioContent = [
     {
-      id:1,
+     id:1,
       image: PortfolioImg1,
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      title: "title",
+      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
     },
     {
       id:2,
