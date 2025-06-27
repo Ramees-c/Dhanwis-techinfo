@@ -80,7 +80,7 @@ function Home({ portfolioContent }) {
         <div className="mb-10 text-center">
           <PortfolioTab />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-0">
           {portfolioContent.map((item) => (
             <CustomCard
               key={item.id}

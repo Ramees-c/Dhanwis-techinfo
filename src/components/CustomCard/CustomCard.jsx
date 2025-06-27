@@ -5,20 +5,14 @@ function CustomCard({ title, image, desc }) {
   return (
     <div className="px-4">
       <div className="relative">
-        {/* Service Inner Container */}
-        <div className="shadow-[0_0_45px_rgba(0,0,0,0.05)] h-full pb-5 mb-10  group">
-          {/* Hover Background Effect */}
-          <div className="absolute bottom-0 left-0 w-full h-0 bg-primary transition-all duration-1000 ease-in-out group-hover:h-full group-hover:top-0"></div>
-
-          {/* Image with Negative Margin */}
+        <div className="shadow-[0_0_45px_rgba(0,0,0,0.05)] h-full lg:w-[330px] pb-5 mb-10  group">
+          <div className="absolute bottom-0 left-0 w-[330px] h-0 bg-primary transition-all duration-1000 ease-in-out group-hover:h-full group-hover:top-0"></div>
           <img
-            className="  w-full h-[200px] lg:h-[280px]  transition-all duration-500 relative z-[1]"
+            className="  w-full h-[200px] lg:h-[250px]  transition-all duration-500 relative z-[1]"
             src={image}
             alt="Metal Works"
           />
-
-          {/* Content */}
-          <div className="pl-5 relative  mt-10 z-[1]">
+          <div className="pl-5 relative mt-10 z-[1]">
             <h5 className="text-lg font-bold uppercase mb-2 text-black group-hover:text-white transition-colors duration-500">
               {title}
             </h5>
@@ -26,7 +20,6 @@ function CustomCard({ title, image, desc }) {
               {desc}
             </p>
           </div>
-
           <div className=" mt-4 relative z-[1]">
             <a
               href="#"

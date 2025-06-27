@@ -35,9 +35,9 @@ function App() {
     },
     {
       id:6,
-      image: "https://img.freepik.com/free-vector/flat-design-responsive-website-design_23-2149489189.jpg?ga=GA1.1.1246216932.1730456119&semt=ais_items_boosted&w=740",
+      image: "https://img.freepik.com/free-vector/flat-design-responsive-website-design_23-2149489189.jpg?ga=GA1.1.1246216932.1730456119&semt=ais_items_boosted&w=740 ",
       title: "title",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
     },
     {
       id:7,
