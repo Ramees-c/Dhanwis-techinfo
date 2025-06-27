@@ -6,7 +6,7 @@ function CustomCard({ title, image, desc }) {
     <div className="px-4">
       <div className="relative">
         <div className="shadow-[0_0_45px_rgba(0,0,0,0.05)] h-full lg:w-[330px] pb-5 mb-10  group">
-          <div className="absolute bottom-0 left-0 w-[330px] h-0 bg-primary transition-all duration-1000 ease-in-out group-hover:h-full group-hover:top-0"></div>
+          <div className="absolute bottom-0 left-0 w-full lg:w-[330px] h-0 bg-primary transition-all duration-1000 ease-in-out group-hover:h-full group-hover:top-0"></div>
           <img
             className="  w-full h-[200px] lg:h-[250px]  transition-all duration-500 relative z-[1]"
             src={image}

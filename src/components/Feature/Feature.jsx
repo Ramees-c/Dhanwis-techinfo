@@ -34,7 +34,7 @@ function Feature() {
         }}
       >
         <div className="container">
-          <div className="flex g-0 justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end">
             <div className="w-full lg:w-[50%] ">
               <div className="mt-10 lg:mt-17">
                 <h1 className=" text-white text-2xl lg:text-5xl font-title font-bold uppercase mb-4">
@@ -51,7 +51,7 @@ function Feature() {
                   facilis, ut pariatur placeat sed nisi molestias nulla nobis
                   velit veniam eum quasi officia ipsum.
                 </p>
-                <div className="flex flex-col md:flex-row justify-center items-center gap-5 lg:gap-10 pt-2 mb-5 lg:mb-10">
+                <div className="flex flex-col xl:flex-row justify-center xl:items-center gap-5 lg:gap-10 pt-2 mb-5 lg:mb-10">
                   <div>
                     <div className="flex flex-col text-center justify-center items-center border-4 border-primary h-[140px] w-[300px] xl:h-[200px]">
                       <h1

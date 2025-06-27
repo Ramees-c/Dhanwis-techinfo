@@ -15,8 +15,8 @@ function Footer() {
   return (
     <div className="bg-customBlack py-16 mt-16">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="px-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <div className="px-3 mb-10 xl:mb-0">
             <img className="w-[140px] mb-3" src={logo} alt="logo" />
             <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odio.</p>
             <div className="flex pt-4">

@@ -114,7 +114,7 @@ function TestimonialCarousel() {
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-16 h-16 lg:w-24 lg:h-24 rounded-full object-cover"
+                        className="w-16 h-16 xl:w-24 xl:h-24 rounded-full object-cover"
                       />
                       <div className="ml-4">
                         <div className="flex mb-2">
@@ -122,15 +122,15 @@ function TestimonialCarousel() {
                             <FaStar key={i} className="text-primary" />
                           ))}
                         </div>
-                        <h5 className="text-md lg:text-lg font-bold uppercase">
+                        <h5 className="text-md xl:text-lg font-bold uppercase">
                           {testimonial.name}
                         </h5>
-                        <span className="text-para text-sm lg:text-md">
+                        <span className="text-para text-sm xl:text-md">
                           {testimonial.profession}
                         </span>
                       </div>
                     </div>
-                    <p className="text-sm lg:text-lg text-para">
+                    <p className="text-sm xl:text-lg text-para">
                       {testimonial.content}
                     </p>
                   </div>
@@ -139,7 +139,7 @@ function TestimonialCarousel() {
             </Slider>
 
             {/* Custom Arrows */}
-            <div className="flex pl-9 lg:mt-6 space-x-4">
+            <div className="flex pl-9 xl:mt-6 space-x-4">
               <button
                 onClick={() => sliderRef.current.slickPrev()}
                 className="text-primary text-xl lg:text-3xl hover:text-customBlack transition-colors duration-300"

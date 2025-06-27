@@ -56,7 +56,7 @@ function Home({ portfolioContent }) {
       <About />
       <Feature />
       <div className="container mb-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-5 lg:gap-0">
           {serviceButtonContent.map((item) => (
             <ServiceCard
               key={item.id}
@@ -80,7 +80,7 @@ function Home({ portfolioContent }) {
         <div className="mb-10 text-center">
           <PortfolioTab />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 lg:gap-0 place-items-center">
           {portfolioContent.map((item) => (
             <CustomCard
               key={item.id}

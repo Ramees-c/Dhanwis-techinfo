@@ -5,10 +5,10 @@ function About() {
   return (
     <div className="pt-[16px] lg:pt-[80px] pb-6 w-full lg:w-[90%] mx-auto">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 place-items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 place-items-center">
           {/* Image Column */}
           <div>
-            <div className="about-img relative">
+            <div className="relative mb-10 xl:mb-0">
               <img
                 className="w-[500px] h-auto"
                 src="https://img.freepik.com/free-photo/group-confident-businesspeople-office_107420-84863.jpg?uid=R185636078&ga=GA1.1.1884660922.1716013807&semt=ais_hybrid&w=740"
@@ -20,7 +20,7 @@ function About() {
           </div>
 
           {/* Content Column */}
-          <div className="wow fadeIn" data-wow-delay="0.5s">
+          <div>
             <h1 className="text-2xl md:text-4xl lg:text-4xl font-title font-bold uppercase mb-4">
               Ultimate Welding and Quality Metal Solutions
             </h1>
